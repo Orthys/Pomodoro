@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+#timerDisplay {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #f7fafc;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #2d3748;
+    color: #f7fafc;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #4a5568;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "A simple personal website creating a pomodoro timer app",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server",
+    "build:css": "postcss styles.css -o output.css"
+  },
+  "keywords": ["pomodoro", "timer", "website"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
